@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="" type="img/x-icon">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,800" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/533e5d4e51.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="parent">
+    <aside>
+      <div class="title"><span>Damon</span></div>
+      <div class="links">
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>files</span>
+
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <div class="section">
+      <nav>
+        <div class="search">
+          <input type="text" placeholder="Type A Keyboard">
+        </div>
+        <div class="icon">
+          <div class="ring">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </div>
+          <img src="images/avatar.png" alt="">
+        </div>
+      </nav>
+      <section class="dashboard">
+        <div class="title">
+          <h1>Dashboard</h1>
+        </div>
+        <div class="info">
+          <div class="welcome">
+            <div class="p1">
+              <div class="info">
+                <h2>Welcome</h2>
+                <span>Damon</span>
+              </div>
+              <img src="images/welcome.png" alt="">
+            </div>
+            <div class="p2">
+              <img src="images/avatar.png" alt="">
+              <ul>
+                <li>
+                  <span>Ali Wehbi</span>
+                  <span>Developer</span>
+                </li>
+                <li>
+                  <span>80</span>
+                  <span>Projects</span>
+                </li>
+                <li>
+                  <span>$8500</span>
+                  <span>Earned</span>
+                </li>
+              </ul>
+              <div class="button">
+                <a href="profile.html">Profile</a>
+              </div>
+            </div>
+          </div>
+          <div class="draft">
+            <div class="info">
+              <div class="p1">
+                <div class="info">
+                  <h2>Quick Draft</h2>
+                  <span>Write A Draft For Your Ideas</span>
+                </div>
+              </div>
+            </div>
+            <div class="p3">
+              <input type="text" placeholder="Title">
+              <textarea name="thought" id="" placeholder="Your Thought"></textarea>
+            </div>
+            <div class="button">
+              <a href="#">Save</a>
+            </div>
+          </div>
+          <div class="targets">
+            <div class="info">
+              <div class="p1">
+                <div class="info">
+                  <h2>Yearly Targets</h2>
+                  <span>Targets Of The Year</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="cont blue">
+                <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+                <div class="static">
+                  <div>
+                    <p>Money</p>
+                    <p>$20.000</p>
+                  </div>
+                  <div class="percent">
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="cont yellow">
+                <i class="fa-solid fa-code fa-lg c-orange"></i>
+                <div class="static">
+                  <div>
+                    <p>Projects</p>
+                    <p>24</p>
+                  </div>
+                  <div class="percent">
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="cont green">
+                <i class="fa-solid fa-user fa-lg c-green"></i>
+                <div class="static">
+                  <div>
+                    <p>Team</p>
+                    <p>12</p>
+                  </div>
+                  <div class="percent">
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tickets">
+            <div class="info">
+              <div class="p1">
+                <div class="info">
+                  <h2>Tickets Statistics</h2>
+                  <span>Everything About Support Tickets</span>
+                </div>
+              </div>
+            </div>
+            <div class="statics">
+              <div class="cont">
+                <i class="fa-regular fa-rectangle-list fa-2x mb-10 c-orange yellow"></i>
+                <h2>2500</h2>
+                <span>Total</span>
+              </div>
+              <div class="cont">
+                <i class="fa-solid fa-spinner fa-2x mb-10 c-blue blue"></i>
+                <h2>500</h2>
+                <span>Pending</span>
+              </div>
+              <div class="cont">
+                <i class="fa-regular fa-circle-check fa-2x mb-10 c-green green"></i>
+                <h2>1900</h2>
+                <span>Closed</span>
+              </div>
+              <div class="cont">
+                <i class="fa-regular fa-rectangle-xmark fa-2x mb-10 c-red red"></i>
+                <h2>100</h2>
+                <span>Deleted</span>
+              </div>
+            </div>
+          </div>
+          <div class="news">
+            <div>
+                <h2>Latest News</h2>
+             </div>
+             <div class="cont">
+              <div>
+                <div>
+                  <img src="images/news-01.png" alt="">
+                  <div class="desc">
+                    <h4>Created SASS Section</h4>
+                    <span>New SASS Examples & Tutorials</span>
+                  </div>
+                </div>
+                <span class="span">3 Days Ago</span>
+              </div>
+              
+              <div>
+                <div>
+                  <img src="images/news-02.png" alt="">
+                  <div class="desc">
+                    <h4>Changed The Design</h4>
+                    <span>A Brand New Website Design</span>
+                  </div>
+                </div>
+                <span class="span">5 Days Ago</span>
+              </div>
+              
+              <div>
+                <div>
+                  <img src="images/news-03.png" alt="">
+                  <div class="desc">
+                    <h4>Team Increased</h4>
+                    <span>3 Developers Joined The Team</span>
+                  </div>
+                </div>
+                <span class="span">7 Days Ago</span>
+              </div>
+              
+              <div>
+                <div>
+                  <img src="images/news-04.png" alt="">
+                  <div class="desc">
+                    <h4>Added Payment Gateway</h4>
+                    <span>Many New Payment Gateways Added</span>
+                  </div>
+                </div>
+                <span class="span">9 Days Ago</span>
+              </div>
+              
+             </div>
+          </div>
+          <div class="tasks">
+            <div>
+              <h2>Latest Tasks</h2>
+            </div>
+            <div class="cont">
+              <div>
+                <div>
+                  <h4>Record One New Video</h4>
+                  <span>Record Python Create Exe Project</span>
+                </div>
+                <i class="fa-regular fa-trash-can delete"></i>
+              </div>
+              <div>
+                <div>
+                  <h4>Write Article</h4>
+                  <span>Write Low Level vs High Level Languages</span>
+                </div>
+                <i class="fa-regular fa-trash-can delete"></i>
+              </div>
+              <div>
+                <div>
+                  <h4><del>Finish Project</del></h4>
+                  <span><del>Publish Academy Programming Project</del></span>
+                </div>
+                <i class="fa-regular fa-trash-can delete"></i>
+              </div>
+              <div>
+                <div>
+                  <h4>Attend The Meeting</h4>
+                  <span>Attend The Project Business Analysis Meeting</span>
+                </div>
+                <i class="fa-regular fa-trash-can delete"></i>
+              </div>
+              <div>
+                <div>
+                  <h4>Finish Lesson</h4>
+                  <span>Finish Teaching Flex Box</span>
+                </div>
+                <i class="fa-regular fa-trash-can delete"></i>
+              </div>
+            </div>
+          </div>
+          <div class="items">
+            <div>
+              <h2>Top Search Items</h2>
+            </div>
+            <div class="cont">
+              <div>
+                <span>Keyboard</span>
+                <span>Search Count</span>
+              </div>
+              <div class="numb">
+                <div>
+                  <span>Programming</span>
+                  <span class="span">220</span>
+                </div>
+                <div>
+                  <span>Javascript</span>
+                  <span class="span">180</span>
+                </div>
+                <div>
+                  <span>PHP</span>
+                  <span class="span">160</span>
+                </div>
+                <div>
+                  <span>Code</span>
+                  <span class="span">145</span>
+                </div>
+                <div>
+                  <span>Desgin</span>
+                  <span class="span">110</span>
+                </div>
+                <div>
+                  <span>Logic</span>
+                  <span class="span">95</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="uploads">
+            <div>
+              <h2>Latest Uploads</h2>
+            </div>
+            <div class="cont">
+              <div class="numb">
+                <div>
+                  <div class="pa1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#f15642"/><path d="M101.744 303.152c0-4.224 3.328-8.832 8.688-8.832h29.552c16.64 0 31.616 11.136 31.616 32.48 0 20.224-14.976 31.488-31.616 31.488h-21.36v16.896c0 5.632-3.584 8.816-8.192 8.816-4.224 0-8.688-3.184-8.688-8.816v-72.032zm16.88 7.28v31.872h21.36c8.576 0 15.36-7.568 15.36-15.504 0-8.944-6.784-16.368-15.36-16.368h-21.36zM196.656 384c-4.224 0-8.832-2.304-8.832-7.92v-72.672c0-4.592 4.608-7.936 8.832-7.936h29.296c58.464 0 57.184 88.528 1.152 88.528h-30.448zm8.064-72.912V368.4h21.232c34.544 0 36.08-57.312 0-57.312H204.72zm99.152 1.024v20.336h32.624c4.608 0 9.216 4.608 9.216 9.072 0 4.224-4.608 7.68-9.216 7.68h-32.624v26.864c0 4.48-3.184 7.92-7.664 7.92-5.632 0-9.072-3.44-9.072-7.92v-72.672c0-4.592 3.456-7.936 9.072-7.936h44.912c5.632 0 8.96 3.344 8.96 7.936 0 4.096-3.328 8.704-8.96 8.704h-37.248v.016z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>
+                    <div class="info">
+                      <p>my-file.pdf</p>
+                      <p>Damon</p>
+                    </div>
+                  </div>
+                  <div class="speed">
+                    <span class="span">2.9mb</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="pa1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#f15642"/><path d="M121.408 384.016c-4.096-2.32-6.656-6.912-4.096-12.288l36.72-71.76c3.456-6.784 12.656-7.04 15.856 0l36.08 71.76c5.248 9.968-10.24 17.904-14.848 7.92l-5.632-11.248h-47.2l-5.488 11.264c-2.048 4.352-6.784 5.248-11.392 4.352zm55.008-32.496l-14.464-31.6-15.728 31.6h30.192zm65.184 26.736l-33.776-70.736c-4.992-10.112 10.112-18.416 15.728-7.808l11.392 25.712 14.704 33.76 14.448-33.76 11.392-25.712c5.12-9.712 19.952-3.584 15.616 7.04l-32.624 71.504c-2.944 8.064-12.032 9.984-16.88 0zm65.28-75.104c0-10.48 16.896-10.88 16.896 0v73.04c0 10.624-16.896 10.88-16.896 0v-73.04z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>                    <div class="info">
+                      <p>My-Video-File.avi</p>
+                      <p>Admin</p>
+                    </div>
+                  </div>
+                  <div class="speed">
+                    <span class="span">4.9mb</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="pa1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#50bee8"/><path d="M100 303.152c0-4.224 3.328-8.848 8.688-8.848h29.552c16.64 0 31.616 11.136 31.616 32.496 0 20.224-14.976 31.472-31.616 31.472h-21.36v16.896c0 5.648-3.584 8.832-8.192 8.832-4.224 0-8.688-3.184-8.688-8.832v-72.016zm16.88 7.28v31.856h21.36c8.576 0 15.36-7.552 15.36-15.488 0-8.96-6.784-16.368-15.36-16.368h-21.36zm67.44 4.224c2.944-24.816 40.416-29.28 58.08-15.712 8.704 7.024-.512 18.16-8.192 12.528-9.472-6.016-30.96-8.832-33.648 4.464-3.456 20.992 52.192 8.976 51.296 42.992-.896 32.496-47.968 33.264-65.632 18.672-4.24-3.44-4.096-9.056-1.792-12.528 3.328-3.312 7.024-4.464 11.392-.896 10.48 7.168 37.488 12.544 39.392-5.648-1.648-18.912-54.88-7.52-50.896-43.872zM278.24 384c-4.224 0-8.832-2.32-8.832-7.936v-72.656c0-4.608 4.608-7.936 8.832-7.936h29.296C366 295.472 364.72 384 308.688 384H278.24zm8.064-72.928v57.312h21.232c34.544 0 36.08-57.312 0-57.312h-21.232z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>                    <div class="info">
+                      <p>My-Psd-File.pdf</p>
+                      <p>Ali</p>
+                    </div>
+                  </div>
+                  <div class="speed">
+                    <span class="span">4.5mb</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="pa1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#84bd5a"/><path d="M132.64 384c-8.064 0-11.264-7.792-6.656-13.296l45.552-60.512h-37.76c-11.12 0-10.224-15.712 0-15.712h51.568c9.712 0 12.528 9.184 5.632 16.624l-43.632 56.656h41.584c10.24 0 11.52 16.256-1.008 16.256h-55.28V384zm79.408-80.848c0-10.496 16.896-10.88 16.896 0v73.04c0 10.608-16.896 10.88-16.896 0v-73.04zm39.568 0c0-4.224 3.328-8.832 8.704-8.832h29.552c16.64 0 31.616 11.136 31.616 32.48 0 20.224-14.976 31.488-31.616 31.488h-21.36v16.896c0 5.632-3.584 8.816-8.192 8.816-4.224 0-8.704-3.184-8.704-8.816v-72.032zm16.88 7.28v31.872h21.36c8.576 0 15.36-7.568 15.36-15.504 0-8.944-6.784-16.368-15.36-16.368h-21.36z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>                      
+                      <div class="info">
+                      <p>My-Zip-File.pdf</p>
+                      <p>User</p>
+                    </div>
+                  </div>
+                  <div class="speed">
+                    <span class="span">8.9mb</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="pa1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#576d7e"/><path d="M118.08 384c-4.224 0-8.832-2.32-8.832-7.936v-72.656c0-4.608 4.608-7.936 8.832-7.936h29.296c58.464 0 57.184 88.528 1.152 88.528H118.08zm8.064-72.928v57.312h21.232c34.544 0 36.08-57.312 0-57.312h-21.232zm82.464-7.92c0-4.224 3.584-7.808 8.064-7.808 4.096 0 7.552 3.6 7.552 7.808v64.096h34.8c12.528 0 12.8 16.752 0 16.752h-42.336c-4.48 0-8.064-3.184-8.064-7.808v-73.04h-.016zm74.944 0c0-4.224 3.584-7.808 8.064-7.808 4.096 0 7.552 3.6 7.552 7.808v64.096h34.8c12.528 0 12.8 16.752 0 16.752h-42.336c-4.48 0-8.064-3.184-8.064-7.808v-73.04h-.016z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>                    
+                    <div class="info">
+                      <p>My-DLL-File.pdf</p>
+                      <p>Admin</p>
+                    </div>
+                  </div>
+                  <div class="speed">
+                    <span class="span">4.9mb</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="pa1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#f7b84e"/><path d="M116.608 384c-4.48 0-7.936-3.456-7.936-7.936v-72.656c0-4.608 3.456-7.936 7.936-7.936h45.92c11.776 0 11.52 16.624 0 16.624h-36.832v19.2h32.24c11.376 0 11.376 16.768 0 16.768h-32.24v19.184h39.024c11.648 0 12.528 16.752 0 16.752h-48.112zm73.872-80.848c0-4.224 3.328-8.848 8.704-8.848h29.552c16.64 0 31.616 11.136 31.616 32.496 0 20.224-14.976 31.472-31.616 31.472h-21.36v16.896c0 5.648-3.584 8.832-8.192 8.832-4.224 0-8.704-3.184-8.704-8.832v-72.016zm16.896 7.28v31.856h21.36c8.576 0 15.36-7.552 15.36-15.488 0-8.96-6.784-16.368-15.36-16.368h-21.36zm67.424 4.224c2.944-24.816 40.416-29.28 58.08-15.712 8.704 7.024-.512 18.16-8.192 12.528-9.472-6.016-30.96-8.832-33.648 4.464-3.456 20.992 52.192 8.976 51.296 42.992-.896 32.496-47.968 33.264-65.632 18.672-4.224-3.44-4.096-9.056-1.792-12.528 3.328-3.312 7.024-4.464 11.392-.896 10.48 7.168 37.488 12.544 39.408-5.648-1.664-18.912-54.88-7.52-50.912-43.872z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>                    
+                    <div class="info">
+                      <p>My-Eps-File.pdf</p>
+                      <p>Designer</p>
+                    </div>
+                  </div>
+                  <div class="speed">
+                    <span class="span">8.9mb</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div>
+              <h2>Last Project Progress</h2>
+            </div>
+            <div class="cont">
+              <div>
+               <div></div>
+               <p>Got The Project</p>
+              </div>
+              <div>
+               <div>
+                <span></span>
+               </div>
+               <p>Started The Project</p>
+              </div>
+              <div>
+               <div>
+                <span></span>
+               </div>
+               <p>The Project About To Finish</p>
+              </div>
+              <div>
+               <div>
+                <span></span>
+               </div>
+               <p>Test The Project</p>
+              </div>
+              <div>
+               <div>
+                <span></span>
+               </div>
+               <p>Finish The Project & Get Money</p>
+              </div>
+            </div>
+            <img src="images/project.png" alt="">
+          </div>
+          <div class="remind">
+            <div>
+              <h2>Reminders</h2>
+            </div>
+            <div class="cont">
+              <div>
+                <div><p></p></div>
+                <div>
+                  <p>Check My Tasks List</p>
+                  <p>28/09/2022 - 12:00am</p>
+                </div>
+              </div>
+              <div>
+                <div><p></p></div>
+                <div>
+                  <p>Check My Projects</p>
+                  <p>26/10/2022 - 12:00am</p>
+                </div>
+              </div>
+              <div>
+                <div><p></p></div>
+                <div>
+                  <p>Call All My Clients</p>
+                  <p>05/11/2022 - 12:00am</p>
+                </div>
+              </div>
+              <div>
+                <div><p></p></div>
+                <div>
+                  <p>Finish The Development Workshop</p>
+                  <p>20/12/2022 - 12:00am</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="post">
+            <div>
+              <h2>Latest Post</h2>
+            </div>
+            <div class="cont">
+              <div class="info">
+                <img src="images/avatar.png" alt="">
+                <div>
+                  <p>Damon</p>
+                  <p>About 3 Hours Ago</p>
+                </div>
+              </div>
+              <div class="comment">
+                <p>You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The Time, But You Can't Fool All Of The People All Of The Time.</p>
+              </div>
+              <div class="reacts">
+                <div>
+                  <i class="fa-regular fa-heart"></i>
+                  <span>1.8k</span>
+                </div>
+                <div>
+                  <i class="fa-regular fa-comments"></i>
+                  <span>500</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="social">
+            <div>
+              <h2>Social Media Stats</h2>
+            </div>
+            <div class="cont">
+              <div class="media">
+                <div>
+                  <i class="fa-brands fa-twitter fa-2x c-white h-full center-flex"></i>
+                  <span>90K Followers</span>
+                </div>
+                <span>Follow</span>
+              </div>
+              <div class="media">
+                <div>
+                  <i class="fa-brands fa-facebook-f fa-2x c-white h-full center-flex"></i>
+                  <span>2M Like</span>
+                </div>
+                <span>Like</span>
+              </div>
+              <div class="media">
+                <div>
+                  <i class="fa-brands fa-youtube fa-2x c-white h-full center-flex"></i>
+                  <span>1M Subs</span>
+                </div>
+                <span>Subscribe</span>
+              </div>
+              <div class="media">
+                <div>
+                  <i class="fa-brands fa-linkedin fa-2x c-white h-full center-flex"></i>
+                  <span>70K Followers</span>
+                </div>
+                <span>Follow</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="table">
+          <div>
+            <h2>Projects</h2>
+          </div>
+          <div>
+            <table>
+              <thead>
+                <th>Name</th>
+                <th>Finish Date</th>
+                <th>Client</th>
+                <th>Price</th>
+                <th>Team</th>
+                <th>Status</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Ministry Wikipedia</td>
+                  <td>10 May 2022</td>
+                  <td>Ministry</td>
+                  <td>$5300</td>
+                  <td>
+                    <img src="images/team-01.png" alt="">
+                    <img src="images/team-02.png" alt="">
+                    <img src="images/team-03.png" alt="">
+                    <img src="images/team-05.png" alt="">
+                  </td>
+                  <td><span>Pending</span></td>
+                </tr>
+                <tr>
+                  <td>Damon</td>
+                  <td>12 Oct 2021</td>
+                  <td>Damon Company</td>
+                  <td>$1500</td>
+                  <td>
+                    <img src="images/team-01.png" alt="">
+                    <img src="images/team-02.png" alt="">
+                    <img src="images/team-05.png" alt="">
+                  </td>
+                  <td><span>In Progress</span></td>
+                </tr>
+                <tr>
+                  <td>Bouba App</td>
+                  <td>05 Sep 2021</td>
+                  <td>Bouba</td>
+                  <td>$800</td>
+                  <td>
+                    <img src="images/team-02.png" alt="">
+                    <img src="images/team-03.png" alt="">
+                  </td>
+                  <td><span>Completed</span></td>
+                </tr>
+                <tr>
+                  <td>Mahmoud Website</td>
+                  <td>22 May 2021</td>
+                  <td>Mahmoud</td>
+                  <td>$600</td>
+                  <td>
+                    <img src="images/team-01.png" alt="">
+                    <img src="images/team-03.png" alt="">
+                  </td>
+                  <td><span>Completed</span></td>
+                </tr>
+                <tr>
+                  <td>Sayed Website</td>
+                  <td>24 May 2021</td>
+                  <td>Sayed</td>
+                  <td>$300</td>
+                  <td>
+                    <img src="images/team-02.png" alt="">
+                    <img src="images/team-05.png" alt="">
+                  </td>
+                  <td><span>Rejected</span></td>
+                </tr>
+                <tr>
+                  <td>Arena Application</td>
+                  <td>01 Mar 2021</td>
+                  <td>Arena Company</td>
+                  <td>$2600</td>
+                  <td>
+                    <img src="images/team-01.png" alt="">
+                    <img src="images/team-02.png" alt="">
+                    <img src="images/team-03.png" alt="">
+                    <img src="images/team-05.png" alt="">
+                  </td>
+                  <td>
+                    <span>Completed</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>

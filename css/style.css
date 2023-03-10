@@ -2197,6 +2197,14 @@ section .info > div {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
 }
+  
+  .backup .cont .choose {
+    flex-direction: column;
+  }
+  
+  .backup .cont .choose > div {
+    width: 100%;
+  }
 
   .tickets .cont {
     width: 100%;

@@ -1682,6 +1682,11 @@ section .info > div {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  position: relative;
+}
+
+.projects .imgs img:hover {
+    z-index: 100;
 }
 
 .projects .info > div > span {

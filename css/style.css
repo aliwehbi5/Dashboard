@@ -56,6 +56,11 @@ a {
   width: calc(100% - 250px);
 }
 
+.active {
+  background: #f6f6f6;
+  border-radius: 7px;
+}
+
 nav {
   background-color: white;
   height: fit-content;
